@@ -1,0 +1,208 @@
+[0.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'sensoray826_ros', '--symlink-install', '--cmake-args', '-Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver', '-Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['sensoray826_ros'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver', '-Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c86f6b2d3a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c86f6b2cfe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c86f6b2cfe0>>, mixin_verb=('build',))
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/erie_lab/Documents/soft_actuator_ros2_ws'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensoray826_ros) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensoray826_ros' with type 'ros.ament_cmake' and name 'sensoray826_ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/soft_actuator_msgs) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/soft_actuator_msgs' with type 'ros.ament_cmake' and name 'soft_actuator_msgs'
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.219s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.220s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.221s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/erie_lab/Documents/soft_actuator_ros2_ws/install
+[0.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/erie_lab/Documents/grant/ros2_ws/install
+[0.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/erie_lab/ros2_ws/install
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 30 installed packages in /home/erie_lab/dvrk_ws/install
+[0.224s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/jazzy
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'cmake_args' from command line to '['-Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver', '-Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core']'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'soft_actuator_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'soft_actuator_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver', '-Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs', 'merge_install': False, 'path': '/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'cmake_args' from command line to '['-Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver', '-Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core']'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'sensoray826_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'sensoray826_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver', '-Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros', 'merge_install': False, 'path': '/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros', 'symlink_install': True, 'test_result_base': None}
+[0.261s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs'
+[0.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs
+[3.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs
+[3.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs -- -j32 -l32
+[6.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs -- -j32 -l32
+[6.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs
+[7.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(soft_actuator_msgs)
+[7.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs
+[7.121s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs' for CMake module files
+[7.122s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs' for CMake config files
+[7.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_actuator_msgs', 'cmake_prefix_path')
+[7.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/cmake_prefix_path.ps1'
+[7.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/cmake_prefix_path.dsv'
+[7.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/cmake_prefix_path.sh'
+[7.126s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib'
+[7.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_actuator_msgs', 'ld_library_path_lib')
+[7.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/ld_library_path_lib.ps1'
+[7.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/ld_library_path_lib.dsv'
+[7.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/ld_library_path_lib.sh'
+[7.127s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/bin'
+[7.127s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/pkgconfig/soft_actuator_msgs.pc'
+[7.127s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages'
+[7.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_actuator_msgs', 'pythonpath')
+[7.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/pythonpath.ps1'
+[7.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/pythonpath.dsv'
+[7.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/pythonpath.sh'
+[7.129s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/bin'
+[7.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.ps1'
+[7.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.dsv'
+[7.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.sh'
+[7.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.bash'
+[7.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.zsh'
+[7.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/colcon-core/packages/soft_actuator_msgs)
+[7.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(soft_actuator_msgs)
+[7.134s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs' for CMake module files
+[7.134s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs' for CMake config files
+[7.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_actuator_msgs', 'cmake_prefix_path')
+[7.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/cmake_prefix_path.ps1'
+[7.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/cmake_prefix_path.dsv'
+[7.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/cmake_prefix_path.sh'
+[7.138s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib'
+[7.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_actuator_msgs', 'ld_library_path_lib')
+[7.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/ld_library_path_lib.ps1'
+[7.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/ld_library_path_lib.dsv'
+[7.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/ld_library_path_lib.sh'
+[7.139s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/bin'
+[7.139s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/pkgconfig/soft_actuator_msgs.pc'
+[7.139s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages'
+[7.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('soft_actuator_msgs', 'pythonpath')
+[7.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/pythonpath.ps1'
+[7.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/pythonpath.dsv'
+[7.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/hook/pythonpath.sh'
+[7.141s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/bin'
+[7.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.ps1'
+[7.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.dsv'
+[7.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.sh'
+[7.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.bash'
+[7.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.zsh'
+[7.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/colcon-core/packages/soft_actuator_msgs)
+[7.144s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros' with build type 'ament_cmake'
+[7.144s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros'
+[7.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros': CMAKE_PREFIX_PATH=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs:/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati_msgs:/home/erie_lab/ros2_ws/install/dvrk_magewell:/home/erie_lab/dvrk_ws/install/dvrk_robot:/home/erie_lab/dvrk_ws/install/saw_robot_io_1394_ros:/home/erie_lab/dvrk_ws/install/saw_intuitive_research_kit_example_psm_derived:/home/erie_lab/dvrk_ws/install/saw_intuitive_research_kit_example_bilateral_teleop:/home/erie_lab/dvrk_ws/install/saw_controllers_ros:/home/erie_lab/dvrk_ws/install/sawIntuitiveResearchKitCore:/home/erie_lab/dvrk_ws/install/sawTextToSpeechAll:/home/erie_lab/dvrk_ws/install/sawRobotIO1394Core:/home/erie_lab/dvrk_ws/install/sawControllersCore:/home/erie_lab/dvrk_ws/install/sawKeyboardAll:/home/erie_lab/dvrk_ws/install/ati_ft:/home/erie_lab/dvrk_ws/install/sawATIForceSensorCore:/home/erie_lab/dvrk_ws/install/dvrk_video:/home/erie_lab/dvrk_ws/install/dvrk_python:/home/erie_lab/dvrk_ws/install/dvrk_model:/home/erie_lab/dvrk_ws/install/dvrk_hrsv_widget:/home/erie_lab/dvrk_ws/install/dvrk_console:/home/erie_lab/dvrk_ws/install/dvrk_data:/home/erie_lab/dvrk_ws/install/dvrk_config_jhu:/home/erie_lab/dvrk_ws/install/dvrk_config:/home/erie_lab/dvrk_ws/install/dvrk_camera_registration:/home/erie_lab/dvrk_ws/install/dvrk_arms_from_ros:/home/erie_lab/dvrk_ws/install/crtk_python_client:/home/erie_lab/dvrk_ws/install/cisst_ros_crtk:/home/erie_lab/dvrk_ws/install/crtk_msgs:/home/erie_lab/dvrk_ws/install/cisst_ros_bridge:/home/erie_lab/dvrk_ws/install/cisst_msgs:/home/erie_lab/dvrk_ws/install/cisst:/home/erie_lab/dvrk_ws/install/cisstNetlib:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros
+[7.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros' returned '1': CMAKE_PREFIX_PATH=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs:/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati_msgs:/home/erie_lab/ros2_ws/install/dvrk_magewell:/home/erie_lab/dvrk_ws/install/dvrk_robot:/home/erie_lab/dvrk_ws/install/saw_robot_io_1394_ros:/home/erie_lab/dvrk_ws/install/saw_intuitive_research_kit_example_psm_derived:/home/erie_lab/dvrk_ws/install/saw_intuitive_research_kit_example_bilateral_teleop:/home/erie_lab/dvrk_ws/install/saw_controllers_ros:/home/erie_lab/dvrk_ws/install/sawIntuitiveResearchKitCore:/home/erie_lab/dvrk_ws/install/sawTextToSpeechAll:/home/erie_lab/dvrk_ws/install/sawRobotIO1394Core:/home/erie_lab/dvrk_ws/install/sawControllersCore:/home/erie_lab/dvrk_ws/install/sawKeyboardAll:/home/erie_lab/dvrk_ws/install/ati_ft:/home/erie_lab/dvrk_ws/install/sawATIForceSensorCore:/home/erie_lab/dvrk_ws/install/dvrk_video:/home/erie_lab/dvrk_ws/install/dvrk_python:/home/erie_lab/dvrk_ws/install/dvrk_model:/home/erie_lab/dvrk_ws/install/dvrk_hrsv_widget:/home/erie_lab/dvrk_ws/install/dvrk_console:/home/erie_lab/dvrk_ws/install/dvrk_data:/home/erie_lab/dvrk_ws/install/dvrk_config_jhu:/home/erie_lab/dvrk_ws/install/dvrk_config:/home/erie_lab/dvrk_ws/install/dvrk_camera_registration:/home/erie_lab/dvrk_ws/install/dvrk_arms_from_ros:/home/erie_lab/dvrk_ws/install/crtk_python_client:/home/erie_lab/dvrk_ws/install/cisst_ros_crtk:/home/erie_lab/dvrk_ws/install/crtk_msgs:/home/erie_lab/dvrk_ws/install/cisst_ros_bridge:/home/erie_lab/dvrk_ws/install/cisst_msgs:/home/erie_lab/dvrk_ws/install/cisst:/home/erie_lab/dvrk_ws/install/cisstNetlib:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros
+[7.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensoray826_ros)
+[7.626s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros' for CMake module files
+[7.627s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros' for CMake config files
+[7.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensoray826_ros', 'cmake_prefix_path')
+[7.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/sensoray826_ros/hook/cmake_prefix_path.ps1'
+[7.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/sensoray826_ros/hook/cmake_prefix_path.dsv'
+[7.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/sensoray826_ros/hook/cmake_prefix_path.sh'
+[7.628s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/lib'
+[7.628s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/bin'
+[7.628s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/lib/pkgconfig/sensoray826_ros.pc'
+[7.628s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/lib/python3.12/site-packages'
+[7.629s] Level 1:colcon.colcon_core.environment:checking '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/bin'
+[7.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/sensoray826_ros/package.ps1'
+[7.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/sensoray826_ros/package.dsv'
+[7.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/sensoray826_ros/package.sh'
+[7.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/sensoray826_ros/package.bash'
+[7.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/sensoray826_ros/package.zsh'
+[7.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erie_lab/Documents/soft_actuator_ros2_ws/install/sensoray826_ros/share/colcon-core/packages/sensoray826_ros)
+[7.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[7.631s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.637s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.651s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.651s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/local_setup.ps1'
+[7.652s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/_local_setup_util_ps1.py'
+[7.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/setup.ps1'
+[7.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/local_setup.sh'
+[7.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/_local_setup_util_sh.py'
+[7.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/setup.sh'
+[7.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/local_setup.bash'
+[7.663s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/setup.bash'
+[7.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/local_setup.zsh'
+[7.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/setup.zsh'

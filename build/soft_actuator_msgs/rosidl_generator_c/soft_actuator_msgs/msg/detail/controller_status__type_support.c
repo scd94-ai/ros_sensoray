@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "soft_actuator_msgs/msg/detail/controller_status__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "soft_actuator_msgs/msg/detail/controller_status__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "soft_actuator_msgs/msg/detail/controller_status__struct.h"
+#include "soft_actuator_msgs/msg/detail/controller_status__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

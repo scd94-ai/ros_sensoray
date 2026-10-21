@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -248,6 +248,12 @@ S826_API_INCLUDE_DIR:PATH=/home/erie_lab/Downloads/sdk_826_linux_3.3.17/middlewa
 //Path to a library.
 S826_LIBRARY:FILEPATH=/home/erie_lab/Downloads/sdk_826_linux_3.3.17/middleware/lib826_64.so
 
+//Path to a file.
+SENSORAY826_INCLUDE_DIR:PATH=/home/erie_lab/Downloads/sdk_826_linux_3.3.17/middleware
+
+//Path to a library.
+SENSORAY826_LIB:FILEPATH=/home/erie_lab/Downloads/sdk_826_linux_3.3.17/middleware/lib826_64.so
+
 //Name of the computer/site where compile is being run
 SITE:STRING=erie-dvrk
 
@@ -419,6 +425,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/jazzy/share/rosidl_typesupp
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/cmake
 
+//No help, variable specified on the command line.
+sensoray826_driver_DIR:UNINITIALIZED=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver
+
 //Value Computed by CMake
 sensoray826_ros_BINARY_DIR:STATIC=/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros
 
@@ -430,6 +439,9 @@ sensoray826_ros_SOURCE_DIR:STATIC=/home/erie_lab/Documents/soft_actuator_ros2_ws
 
 //The directory containing a CMake configuration file for service_msgs.
 service_msgs_DIR:PATH=/opt/ros/jazzy/share/service_msgs/cmake
+
+//No help, variable specified on the command line.
+soft_actuator_core_DIR:UNINITIALIZED=/home/erie_lab/Documents/jxs1778/soft_actuator_ros2_ws/core_install/lib/cmake/soft_actuator_core
 
 //The directory containing a CMake configuration file for soft_actuator_msgs.
 soft_actuator_msgs_DIR:PATH=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake
@@ -646,6 +658,8 @@ _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-x86_64
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

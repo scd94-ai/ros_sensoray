@@ -1,2 +1,1 @@
-source;share/sensoray826_ros/environment/ament_prefix_path.sh
-source;share/sensoray826_ros/environment/path.sh
+/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/ament_cmake_environment_hooks/local_setup.dsv

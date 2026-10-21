@@ -210,54 +210,6 @@ sensoray_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/build
 .PHONY : sensoray_node/fast
 
-home/erie_lab/Documents/sensoray826/src/festo.o: home/erie_lab/Documents/sensoray826/src/festo.cpp.o
-.PHONY : home/erie_lab/Documents/sensoray826/src/festo.o
-
-# target to build an object file
-home/erie_lab/Documents/sensoray826/src/festo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o
-.PHONY : home/erie_lab/Documents/sensoray826/src/festo.cpp.o
-
-home/erie_lab/Documents/sensoray826/src/festo.i: home/erie_lab/Documents/sensoray826/src/festo.cpp.i
-.PHONY : home/erie_lab/Documents/sensoray826/src/festo.i
-
-# target to preprocess a source file
-home/erie_lab/Documents/sensoray826/src/festo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.i
-.PHONY : home/erie_lab/Documents/sensoray826/src/festo.cpp.i
-
-home/erie_lab/Documents/sensoray826/src/festo.s: home/erie_lab/Documents/sensoray826/src/festo.cpp.s
-.PHONY : home/erie_lab/Documents/sensoray826/src/festo.s
-
-# target to generate assembly for a file
-home/erie_lab/Documents/sensoray826/src/festo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.s
-.PHONY : home/erie_lab/Documents/sensoray826/src/festo.cpp.s
-
-home/erie_lab/Documents/sensoray826/src/sensoray826.o: home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o
-.PHONY : home/erie_lab/Documents/sensoray826/src/sensoray826.o
-
-# target to build an object file
-home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o
-.PHONY : home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o
-
-home/erie_lab/Documents/sensoray826/src/sensoray826.i: home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.i
-.PHONY : home/erie_lab/Documents/sensoray826/src/sensoray826.i
-
-# target to preprocess a source file
-home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.i
-.PHONY : home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.i
-
-home/erie_lab/Documents/sensoray826/src/sensoray826.s: home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.s
-.PHONY : home/erie_lab/Documents/sensoray826/src/sensoray826.s
-
-# target to generate assembly for a file
-home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.s
-.PHONY : home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.s
-
 src/sensoray_node.o: src/sensoray_node.cpp.o
 .PHONY : src/sensoray_node.o
 
@@ -298,12 +250,6 @@ help:
 	@echo "... sensoray826_ros_uninstall"
 	@echo "... uninstall"
 	@echo "... sensoray_node"
-	@echo "... home/erie_lab/Documents/sensoray826/src/festo.o"
-	@echo "... home/erie_lab/Documents/sensoray826/src/festo.i"
-	@echo "... home/erie_lab/Documents/sensoray826/src/festo.s"
-	@echo "... home/erie_lab/Documents/sensoray826/src/sensoray826.o"
-	@echo "... home/erie_lab/Documents/sensoray826/src/sensoray826.i"
-	@echo "... home/erie_lab/Documents/sensoray826/src/sensoray826.s"
 	@echo "... src/sensoray_node.o"
 	@echo "... src/sensoray_node.i"
 	@echo "... src/sensoray_node.s"

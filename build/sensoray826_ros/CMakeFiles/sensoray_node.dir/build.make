@@ -83,46 +83,14 @@ CMakeFiles/sensoray_node.dir/src/sensoray_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensoray_node.dir/src/sensoray_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/src/sensoray_node.cpp -o CMakeFiles/sensoray_node.dir/src/sensoray_node.cpp.s
 
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o: CMakeFiles/sensoray_node.dir/flags.make
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o: /home/erie_lab/Documents/sensoray826/src/sensoray826.cpp
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o: CMakeFiles/sensoray_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o -MF CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o.d -o CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o -c /home/erie_lab/Documents/sensoray826/src/sensoray826.cpp
-
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erie_lab/Documents/sensoray826/src/sensoray826.cpp > CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.i
-
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erie_lab/Documents/sensoray826/src/sensoray826.cpp -o CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.s
-
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o: CMakeFiles/sensoray_node.dir/flags.make
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o: /home/erie_lab/Documents/sensoray826/src/festo.cpp
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o: CMakeFiles/sensoray_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o -MF CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o.d -o CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o -c /home/erie_lab/Documents/sensoray826/src/festo.cpp
-
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/erie_lab/Documents/sensoray826/src/festo.cpp > CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.i
-
-CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/erie_lab/Documents/sensoray826/src/festo.cpp -o CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.s
-
 # Object files for target sensoray_node
 sensoray_node_OBJECTS = \
-"CMakeFiles/sensoray_node.dir/src/sensoray_node.cpp.o" \
-"CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o" \
-"CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o"
+"CMakeFiles/sensoray_node.dir/src/sensoray_node.cpp.o"
 
 # External object files for target sensoray_node
 sensoray_node_EXTERNAL_OBJECTS =
 
 sensoray_node: CMakeFiles/sensoray_node.dir/src/sensoray_node.cpp.o
-sensoray_node: CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/sensoray826.cpp.o
-sensoray_node: CMakeFiles/sensoray_node.dir/home/erie_lab/Documents/sensoray826/src/festo.cpp.o
 sensoray_node: CMakeFiles/sensoray_node.dir/build.make
 sensoray_node: /opt/ros/jazzy/lib/librclcpp.so
 sensoray_node: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_c.so
@@ -131,7 +99,8 @@ sensoray_node: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actua
 sensoray_node: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_introspection_cpp.so
 sensoray_node: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_cpp.so
 sensoray_node: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_generator_py.so
-sensoray_node: /home/erie_lab/Downloads/sdk_826_linux_3.3.17/middleware/lib826_64.so
+sensoray_node: /home/erie_lab/Documents/sensoray826/install/lib/libsensoray826_driver.a
+sensoray_node: /home/erie_lab/Documents/jxs1778/soft_actuator_ros2_ws/core_install/lib/libsoft_actuator_core.a
 sensoray_node: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 sensoray_node: /opt/ros/jazzy/lib/librcl.so
 sensoray_node: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -206,8 +175,9 @@ sensoray_node: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
 sensoray_node: /opt/ros/jazzy/lib/librcpputils.so
 sensoray_node: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 sensoray_node: /opt/ros/jazzy/lib/librcutils.so
+sensoray_node: /home/erie_lab/Downloads/sdk_826_linux_3.3.17/middleware/lib826_64.so
 sensoray_node: CMakeFiles/sensoray_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sensoray_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sensoray_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensoray_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

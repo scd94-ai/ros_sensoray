@@ -6,5 +6,5 @@ C_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_soft_actuator_msgs -DROS_PACKAGE_N
 
 C_INCLUDES = -I/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface
 
-C_FLAGS = -O3 -DNDEBUG -std=gnu11 -fPIC -Wall
+C_FLAGS = -std=gnu11 -fPIC -Wall
 

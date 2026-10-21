@@ -1,0 +1,273 @@
+[0.013s] Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs
+[0.062s] -- The C compiler identification is GNU 13.3.0
+[0.106s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.323s] -- Detecting CXX compile features
+[0.323s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.560s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.656s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.840s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.423s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.409s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.526s] -- Found PythonExtra: /usr/bin/python3  
+[2.954s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.031s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.043s] -- Configuring done (3.0s)
+[3.079s] -- Generating done (0.0s)
+[3.082s] [33mCMake Warning:
+[3.082s]   Manually-specified variables were not used by the project:
+[3.082s] 
+[3.082s]     sensoray826_driver_DIR
+[3.082s]     soft_actuator_core_DIR
+[3.082s] 
+[3.083s] [0m
+[3.089s] -- Build files have been written to: /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs
+[3.097s] Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs
+[3.098s] Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs -- -j32 -l32
+[3.151s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.151s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.161s] [  3%] Built target ament_cmake_python_symlink_soft_actuator_msgs
+[3.344s] running egg_info
+[3.345s] creating soft_actuator_msgs.egg-info
+[3.362s] writing soft_actuator_msgs.egg-info/PKG-INFO
+[3.362s] writing dependency_links to soft_actuator_msgs.egg-info/dependency_links.txt
+[3.362s] writing top-level names to soft_actuator_msgs.egg-info/top_level.txt
+[3.362s] writing manifest file 'soft_actuator_msgs.egg-info/SOURCES.txt'
+[3.414s] reading manifest file 'soft_actuator_msgs.egg-info/SOURCES.txt'
+[3.414s] writing manifest file 'soft_actuator_msgs.egg-info/SOURCES.txt'
+[3.436s] [  3%] Built target ament_cmake_python_build_soft_actuator_msgs_egg
+[3.466s] [  3%] Built target soft_actuator_msgs__rosidl_generator_type_description
+[3.477s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.487s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.501s] [  7%] Built target soft_actuator_msgs__rs
+[3.884s] [  7%] Built target soft_actuator_msgs__cpp
+[3.923s] [  9%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/pressure_command__description.c.o[0m
+[3.923s] [ 10%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/pressure_command__type_support.c.o[0m
+[3.923s] [ 14%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/pressure_state__functions.c.o[0m
+[3.923s] [ 14%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/pressure_state__type_support.c.o[0m
+[3.924s] [ 21%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/controller_status__description.c.o[0m
+[3.924s] [ 21%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/controller_status__functions.c.o[0m
+[3.924s] [ 21%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/pressure_command__functions.c.o[0m
+[3.924s] [ 21%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/pressure_state__description.c.o[0m
+[3.924s] [ 23%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_c.dir/rosidl_generator_c/soft_actuator_msgs/msg/detail/controller_status__type_support.c.o[0m
+[3.969s] [ 25%] [32m[1mLinking C shared library libsoft_actuator_msgs__rosidl_generator_c.so[0m
+[4.005s] [ 25%] Built target soft_actuator_msgs__rosidl_generator_c
+[4.016s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.016s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.016s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.016s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.016s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.016s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.382s] [ 40%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/soft_actuator_msgs/msg/pressure_command__type_support.cpp.o[0m
+[4.382s] [ 40%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/soft_actuator_msgs/msg/pressure_state__type_support.cpp.o[0m
+[4.382s] [ 41%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/soft_actuator_msgs/msg/controller_status__type_support.cpp.o[0m
+[4.383s] [ 43%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soft_actuator_msgs/msg/pressure_state__type_support.cpp.o[0m
+[4.383s] [ 45%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soft_actuator_msgs/msg/controller_status__type_support.cpp.o[0m
+[4.383s] [ 47%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soft_actuator_msgs/msg/pressure_command__type_support.cpp.o[0m
+[4.404s] [ 50%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soft_actuator_msgs/msg/detail/controller_status__type_support.cpp.o[0m
+[4.404s] [ 50%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soft_actuator_msgs/msg/detail/pressure_command__type_support.cpp.o[0m
+[4.405s] [ 52%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soft_actuator_msgs/msg/detail/pressure_state__type_support.cpp.o[0m
+[4.410s] [ 56%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/controller_status__type_support.c.o[0m
+[4.410s] [ 56%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_state__type_support.c.o[0m
+[4.411s] [ 58%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_command__type_support.c.o[0m
+[4.426s] [ 60%] [32m[1mLinking CXX shared library libsoft_actuator_msgs__rosidl_typesupport_c.so[0m
+[4.445s] [ 65%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soft_actuator_msgs/msg/detail/dds_fastrtps/pressure_state__type_support.cpp.o[0m
+[4.445s] [ 65%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soft_actuator_msgs/msg/detail/dds_fastrtps/controller_status__type_support.cpp.o[0m
+[4.445s] [ 65%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soft_actuator_msgs/msg/detail/dds_fastrtps/pressure_command__type_support.cpp.o[0m
+[4.457s] [ 67%] [32m[1mLinking C shared library libsoft_actuator_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.462s] [ 70%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soft_actuator_msgs/msg/detail/pressure_command__type_support_c.cpp.o[0m
+[4.462s] [ 70%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soft_actuator_msgs/msg/detail/controller_status__type_support_c.cpp.o[0m
+[4.462s] [ 72%] [32mBuilding CXX object CMakeFiles/soft_actuator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soft_actuator_msgs/msg/detail/pressure_state__type_support_c.cpp.o[0m
+[4.469s] [ 72%] Built target soft_actuator_msgs__rosidl_typesupport_c
+[4.493s] [ 72%] Built target soft_actuator_msgs__rosidl_typesupport_introspection_c
+[4.631s] [ 74%] [32m[1mLinking CXX shared library libsoft_actuator_msgs__rosidl_typesupport_cpp.so[0m
+[4.670s] [ 76%] [32m[1mLinking CXX shared library libsoft_actuator_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.686s] [ 76%] Built target soft_actuator_msgs__rosidl_typesupport_cpp
+[4.735s] [ 76%] Built target soft_actuator_msgs__rosidl_typesupport_introspection_cpp
+[4.825s] [ 78%] [32m[1mLinking CXX shared library libsoft_actuator_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.838s] [ 80%] [32m[1mLinking CXX shared library libsoft_actuator_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.886s] [ 80%] Built target soft_actuator_msgs__rosidl_typesupport_fastrtps_cpp
+[4.898s] [ 80%] Built target soft_actuator_msgs__rosidl_typesupport_fastrtps_c
+[4.918s] [ 80%] Built target soft_actuator_msgs
+[4.938s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.559s] [ 81%] Built target soft_actuator_msgs__py
+[5.580s] [ 83%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_py.dir/rosidl_generator_py/soft_actuator_msgs/msg/_pressure_command_s.c.o[0m
+[5.580s] [ 87%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_py.dir/rosidl_generator_py/soft_actuator_msgs/msg/_pressure_state_s.c.o[0m
+[5.580s] [ 87%] [32mBuilding C object CMakeFiles/soft_actuator_msgs__rosidl_generator_py.dir/rosidl_generator_py/soft_actuator_msgs/msg/_controller_status_s.c.o[0m
+[5.704s] [ 89%] [32m[1mLinking C shared library libsoft_actuator_msgs__rosidl_generator_py.so[0m
+[5.746s] [ 89%] Built target soft_actuator_msgs__rosidl_generator_py
+[5.766s] [ 92%] [32mBuilding C object CMakeFiles/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/soft_actuator_msgs/_soft_actuator_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.767s] [ 92%] [32mBuilding C object CMakeFiles/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/soft_actuator_msgs/_soft_actuator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.768s] [ 94%] [32mBuilding C object CMakeFiles/soft_actuator_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/soft_actuator_msgs/_soft_actuator_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.851s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[5.851s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so[0m
+[5.855s] [100%] [32m[1mLinking C shared module rosidl_generator_py/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.881s] [100%] Built target soft_actuator_msgs_s__rosidl_typesupport_introspection_c
+[5.881s] [100%] Built target soft_actuator_msgs_s__rosidl_typesupport_c
+[5.887s] [100%] Built target soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c
+[5.899s] Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs -- -j32 -l32
+[5.908s] Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs
+[5.916s] -- Install configuration: ""
+[5.917s] -- Execute custom install script
+[5.917s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/ament_index/resource_index/rosidl_interfaces/soft_actuator_msgs
+[5.926s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/PressureCommand.json
+[5.935s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/PressureState.json
+[5.943s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/ControllerStatus.json
+[5.953s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/controller_status.h
+[5.961s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__functions.h
+[5.969s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__struct.h
+[5.978s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__type_support.h
+[5.986s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__functions.h
+[5.994s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__struct.h
+[6.003s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__type_support.h
+[6.011s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__functions.h
+[6.020s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__struct.h
+[6.029s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__type_support.h
+[6.037s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/pressure_command.h
+[6.045s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/pressure_state.h
+[6.053s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.062s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/environment/library_path.sh
+[6.070s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/environment/library_path.dsv
+[6.078s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__rosidl_typesupport_fastrtps_c.h
+[6.087s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__rosidl_typesupport_fastrtps_c.h
+[6.095s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__rosidl_typesupport_fastrtps_c.h
+[6.103s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.112s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__rosidl_typesupport_introspection_c.h
+[6.120s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__rosidl_typesupport_introspection_c.h
+[6.129s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__rosidl_typesupport_introspection_c.h
+[6.137s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.146s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/controller_status.hpp
+[6.154s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__builder.hpp
+[6.162s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__struct.hpp
+[6.170s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__traits.hpp
+[6.178s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__type_support.hpp
+[6.186s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__builder.hpp
+[6.194s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__struct.hpp
+[6.202s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__traits.hpp
+[6.210s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__type_support.hpp
+[6.219s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__builder.hpp
+[6.227s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__struct.hpp
+[6.235s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__traits.hpp
+[6.244s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__type_support.hpp
+[6.253s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/pressure_command.hpp
+[6.261s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/pressure_state.hpp
+[6.269s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.278s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.286s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.294s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.302s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.311s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/controller_status__rosidl_typesupport_introspection_cpp.hpp
+[6.320s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__rosidl_typesupport_introspection_cpp.hpp
+[6.328s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__rosidl_typesupport_introspection_cpp.hpp
+[6.337s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/environment/pythonpath.sh
+[6.345s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/environment/pythonpath.dsv
+[6.354s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs-0.1.0-py3.12.egg-info/PKG-INFO
+[6.363s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs-0.1.0-py3.12.egg-info/SOURCES.txt
+[6.371s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs-0.1.0-py3.12.egg-info/dependency_links.txt
+[6.379s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs-0.1.0-py3.12.egg-info/top_level.txt
+[6.388s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/__init__.py
+[6.396s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/_soft_actuator_msgs_s.ep.rosidl_typesupport_c.c
+[6.404s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/_soft_actuator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.413s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/_soft_actuator_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.422s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/__init__.py
+[6.430s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_controller_status.py
+[6.438s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_controller_status_s.c
+[6.447s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_pressure_command.py
+[6.455s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_pressure_command_s.c
+[6.463s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_pressure_state.py
+[6.472s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_pressure_state_s.c
+[6.480s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so
+[6.488s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.496s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so
+[6.505s] -- Up-to-date symlink: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.505s] -- Up-to-date symlink: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so
+[6.505s] -- Up-to-date symlink: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so
+[6.505s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/rust/Cargo.toml
+[6.514s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/rust/build.rs
+[6.523s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/rust/src/lib.rs
+[6.532s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/rust/src/msg.rs
+[6.541s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/rust/src/msg/rmw.rs
+[6.550s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/PressureCommand.idl
+[6.558s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/PressureState.idl
+[6.566s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/ControllerStatus.idl
+[6.575s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/PressureCommand.msg
+[6.583s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/PressureState.msg
+[6.591s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/msg/ControllerStatus.msg
+[6.600s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/ament_index/resource_index/package_run_dependencies/soft_actuator_msgs
+[6.608s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/ament_index/resource_index/parent_prefix_path/soft_actuator_msgs
+[6.616s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/environment/ament_prefix_path.sh
+[6.626s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/environment/ament_prefix_path.dsv
+[6.635s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/environment/path.sh
+[6.644s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/environment/path.dsv
+[6.652s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/local_setup.bash
+[6.661s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/local_setup.sh
+[6.669s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/local_setup.zsh
+[6.677s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/local_setup.dsv
+[6.686s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.dsv
+[6.694s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/ament_index/resource_index/packages/soft_actuator_msgs
+[6.703s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/rosidl_cmake-extras.cmake
+[6.711s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.720s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.729s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.738s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.747s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.756s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.765s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[6.773s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgsConfig.cmake
+[6.783s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgsConfig-version.cmake
+[6.792s] -- Symlinking: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/package.xml
+[6.800s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_generator_c.so
+[6.801s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_generator_c.so" to ""
+[6.801s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_c.so
+[6.801s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.801s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_introspection_c.so
+[6.802s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.802s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_c.so
+[6.802s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_c.so" to ""
+[6.802s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.803s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.803s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_introspection_cpp.so
+[6.803s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.803s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_cpp.so
+[6.804s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_typesupport_cpp.so" to ""
+[6.842s] Listing '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs'...
+[6.842s] Compiling '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/__init__.py'...
+[6.843s] Listing '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg'...
+[6.843s] Compiling '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/__init__.py'...
+[6.843s] Compiling '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_controller_status.py'...
+[6.843s] Compiling '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_pressure_command.py'...
+[6.843s] Compiling '/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/python3.12/site-packages/soft_actuator_msgs/msg/_pressure_state.py'...
+[6.846s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_generator_py.so
+[6.847s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/lib/libsoft_actuator_msgs__rosidl_generator_py.so" to ""
+[6.847s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_generator_cExport.cmake
+[6.847s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.847s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.848s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.848s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.848s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.848s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgs__rosidl_typesupport_cExport.cmake
+[6.848s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.849s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_generator_cppExport.cmake
+[6.849s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.849s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.849s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.849s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.850s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgs__rosidl_typesupport_cppExport.cmake
+[6.850s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/soft_actuator_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.850s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_generator_pyExport.cmake
+[6.850s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.853s] Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs

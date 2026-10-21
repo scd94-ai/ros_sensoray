@@ -328,17 +328,17 @@ soft_actuator_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : soft_actuator_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_soft_actuator_msgs
+# Target rules for targets named ament_cmake_python_symlink_soft_actuator_msgs
 
 # Build rule for target.
-ament_cmake_python_copy_soft_actuator_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_soft_actuator_msgs
-.PHONY : ament_cmake_python_copy_soft_actuator_msgs
+ament_cmake_python_symlink_soft_actuator_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_soft_actuator_msgs
+.PHONY : ament_cmake_python_symlink_soft_actuator_msgs
 
 # fast build rule for target.
-ament_cmake_python_copy_soft_actuator_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_soft_actuator_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_soft_actuator_msgs.dir/build
-.PHONY : ament_cmake_python_copy_soft_actuator_msgs/fast
+ament_cmake_python_symlink_soft_actuator_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_soft_actuator_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_soft_actuator_msgs.dir/build
+.PHONY : ament_cmake_python_symlink_soft_actuator_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_soft_actuator_msgs_egg
@@ -1237,7 +1237,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_soft_actuator_msgs_egg"
-	@echo "... ament_cmake_python_copy_soft_actuator_msgs"
+	@echo "... ament_cmake_python_symlink_soft_actuator_msgs"
 	@echo "... soft_actuator_msgs"
 	@echo "... soft_actuator_msgs__cpp"
 	@echo "... soft_actuator_msgs__py"

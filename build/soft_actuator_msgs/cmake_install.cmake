@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -43,31 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/soft_actuator_msgs")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_type_description/soft_actuator_msgs/msg/PressureCommand.json")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_type_description/soft_actuator_msgs/msg/PressureState.json")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_type_description/soft_actuator_msgs/msg/ControllerStatus.json")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/soft_actuator_msgs/soft_actuator_msgs" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_c/soft_actuator_msgs/" REGEX "/[^/]*\\.h$")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/environment" TYPE FILE FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/environment" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/library_path.dsv")
+  include("/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,10 +70,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/soft_actuator_msgs/soft_actuator_msgs" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_typesupport_fastrtps_c/soft_actuator_msgs/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHECK
@@ -118,10 +90,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/soft_actuator_msgs/soft_actuator_msgs" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_typesupport_introspection_c/soft_actuator_msgs/" REGEX "/[^/]*\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -171,14 +139,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/soft_actuator_msgs/soft_actuator_msgs" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/" REGEX "/[^/]*\\.hpp$")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/soft_actuator_msgs/soft_actuator_msgs" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_typesupport_fastrtps_cpp/soft_actuator_msgs/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsoft_actuator_msgs__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHECK
@@ -199,10 +159,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/soft_actuator_msgs/soft_actuator_msgs" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_typesupport_introspection_cpp/soft_actuator_msgs/" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -252,22 +208,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/environment" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/pythonpath.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/environment" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/pythonpath.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs-0.1.0-py3.12.egg-info" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_python/soft_actuator_msgs/soft_actuator_msgs.egg-info/")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_py/soft_actuator_msgs/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
@@ -278,78 +218,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/soft_actuator_msgs__py/cmake_install.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs" TYPE MODULE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_py/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs:/opt/ros/jazzy/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.so")
-    endif()
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs" TYPE MODULE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_py/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs:/opt/ros/jazzy/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so")
-    endif()
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs" TYPE MODULE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_py/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs:/opt/ros/jazzy/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_c.so")
-    endif()
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/soft_actuator_msgs_s__rosidl_typesupport_c.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -381,82 +249,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs" TYPE DIRECTORY FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_rs/soft_actuator_msgs/rust")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_adapter/soft_actuator_msgs/msg/PressureCommand.idl")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_adapter/soft_actuator_msgs/msg/PressureState.idl")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_adapter/soft_actuator_msgs/msg/ControllerStatus.idl")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs/msg/PressureCommand.msg")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs/msg/PressureState.msg")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/msg" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs/msg/ControllerStatus.msg")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/soft_actuator_msgs")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/soft_actuator_msgs")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/environment" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/environment" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_index/share/ament_index/resource_index/packages/soft_actuator_msgs")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_generator_cExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake/export_soft_actuator_msgs__rosidl_generator_cExport.cmake"
@@ -474,8 +266,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_generator_cExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_generator_cExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_generator_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -497,8 +289,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -520,8 +312,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_introspection_cExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_introspection_cExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -543,8 +335,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_cExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_cExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -586,8 +378,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cppExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -609,8 +401,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_introspection_cppExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_introspection_cppExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -632,8 +424,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_cppExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_cppExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/soft_actuator_msgs__rosidl_typesupport_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -655,52 +447,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_generator_pyExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_generator_pyExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/CMakeFiles/Export/b37d0b2bd74c7b9bd94128e3113c9f4f/export_soft_actuator_msgs__rosidl_generator_pyExport-noconfig.cmake")
   endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_cmake/rosidl_cmake-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs/cmake" TYPE FILE FILES
-    "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_core/soft_actuator_msgsConfig.cmake"
-    "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_core/soft_actuator_msgsConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/soft_actuator_msgs" TYPE FILE FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-387921f0cedbf0098806.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "soft_actuator_msgs__py",
+					"jsonFile" : "directory-soft_actuator_msgs__py-18cce6afaf060ddf7606.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/soft_actuator_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "soft_actuator_msgs__rs",
+					"jsonFile" : "directory-soft_actuator_msgs__rs-5e0b37c08edd5daac78d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/soft_actuator_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "soft_actuator_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_soft_actuator_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_soft_actuator_msgs_egg-2a3c51776751be36e377.json",
+					"name" : "ament_cmake_python_build_soft_actuator_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_soft_actuator_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_soft_actuator_msgs-c49ce72462c711ab906a.json",
+					"name" : "ament_cmake_python_symlink_soft_actuator_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs-4dba773c0e808826743c.json",
+					"name" : "soft_actuator_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__cpp-739d269578f8b50664ef.json",
+					"name" : "soft_actuator_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "soft_actuator_msgs__py::@56af2cba946092b02f06",
+					"jsonFile" : "target-soft_actuator_msgs__py-05a1ddbc4d7ec239eacb.json",
+					"name" : "soft_actuator_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_generator_c-597ddc79ae66601d06b6.json",
+					"name" : "soft_actuator_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_generator_py-2a692a1e56f8d59512f7.json",
+					"name" : "soft_actuator_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_generator_type_description-7556af5016ecd63e7857.json",
+					"name" : "soft_actuator_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_typesupport_c-0d44736b9556d168484f.json",
+					"name" : "soft_actuator_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_typesupport_cpp-ca08952fc012128d02ad.json",
+					"name" : "soft_actuator_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_typesupport_fastrtps_c-83ef9709b01b4266cc26.json",
+					"name" : "soft_actuator_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_typesupport_fastrtps_cpp-04170b1834d75ad290a1.json",
+					"name" : "soft_actuator_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_typesupport_introspection_c-de51f5198bbb8b058cdf.json",
+					"name" : "soft_actuator_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs__rosidl_typesupport_introspection_cpp-420cdaa3ea84b44d55b1.json",
+					"name" : "soft_actuator_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "soft_actuator_msgs__rs::@b717ea074ed0084523a8",
+					"jsonFile" : "target-soft_actuator_msgs__rs-d6d67cabe2b35fdb4fee.json",
+					"name" : "soft_actuator_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs_s__rosidl_typesupport_c-3a2544bfe0eda95b0f12.json",
+					"name" : "soft_actuator_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c-21d66cdfd349e9f158b2.json",
+					"name" : "soft_actuator_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs_s__rosidl_typesupport_introspection_c-fd774fc6501611c3d189.json",
+					"name" : "soft_actuator_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soft_actuator_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soft_actuator_msgs_uninstall-0ea48ec21781b4c72324.json",
+					"name" : "soft_actuator_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-afb3a63caeeb7064da24.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs",
+		"source" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

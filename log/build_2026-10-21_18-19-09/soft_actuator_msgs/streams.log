@@ -1,0 +1,34 @@
+[0.013s] Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs
+[0.026s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.108s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.114s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.171s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.173s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.445s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.970s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.027s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.035s] -- Configuring done (1.0s)
+[1.072s] -- Generating done (0.0s)
+[1.075s] [33mCMake Warning:
+[1.076s]   Manually-specified variables were not used by the project:
+[1.076s] 
+[1.076s]     sensoray826_driver_DIR
+[1.076s]     soft_actuator_core_DIR
+[1.076s] 
+[1.076s] [0m
+[1.083s] -- Build files have been written to: /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs
+[1.090s] Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs
+[1.091s] Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs -- -j32 -l32
+[1.144s] failed to create symbolic link '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_python/soft_actuator_msgs/soft_actuator_msgs' because existing path cannot be removed: Is a directory
+[1.145s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_soft_actuator_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_soft_actuator_msgs] Error 1
+[1.145s] [  1%] Built target soft_actuator_msgs__rosidl_generator_type_description
+[1.145s] gmake[1]: *** [CMakeFiles/Makefile2:471: CMakeFiles/ament_cmake_python_symlink_soft_actuator_msgs.dir/all] Error 2
+[1.145s] gmake[1]: *** Waiting for unfinished jobs....
+[1.146s] [  3%] Built target soft_actuator_msgs__rs
+[1.147s] gmake: *** [Makefile:146: all] Error 2
+[1.150s] Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs -- -j32 -l32

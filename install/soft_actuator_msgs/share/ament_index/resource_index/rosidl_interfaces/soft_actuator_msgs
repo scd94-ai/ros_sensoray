@@ -1,6 +1,1 @@
-msg/ControllerStatus.idl
-msg/ControllerStatus.msg
-msg/PressureCommand.idl
-msg/PressureCommand.msg
-msg/PressureState.idl
-msg/PressureState.msg
+/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/soft_actuator_msgs

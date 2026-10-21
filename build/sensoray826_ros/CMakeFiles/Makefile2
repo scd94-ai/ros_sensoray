@@ -135,12 +135,12 @@ CMakeFiles/sensoray826_ros_uninstall.dir/clean:
 CMakeFiles/sensoray_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensoray_node.dir/build.make CMakeFiles/sensoray_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles --progress-num=1,2,3,4 "Built target sensoray_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles --progress-num=1,2 "Built target sensoray_node"
 .PHONY : CMakeFiles/sensoray_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensoray_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sensoray_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/CMakeFiles 0
 .PHONY : CMakeFiles/sensoray_node.dir/rule

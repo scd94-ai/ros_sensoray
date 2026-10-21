@@ -41,7 +41,7 @@ ament_target_dependencies(sensoray_node
 )
 
 # Standalone C++ libraries
-target_link_libraries(sensoray_node PRIVATE
+target_link_libraries(sensoray_node
     sensoray826::driver
     soft_actuator::core
 )
