@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/controller_status__type_support.c.o"
+  "CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/controller_status__type_support.c.o.d"
+  "CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_command__type_support.c.o"
+  "CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_command__type_support.c.o.d"
+  "CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_state__type_support.c.o"
+  "CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_state__type_support.c.o.d"
+  "libsoft_actuator_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libsoft_actuator_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/controller_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/controller_status__type_support.c"
+  "rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_command__type_support.c"
+  "rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soft_actuator_msgs/msg/detail/pressure_state__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/soft_actuator_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

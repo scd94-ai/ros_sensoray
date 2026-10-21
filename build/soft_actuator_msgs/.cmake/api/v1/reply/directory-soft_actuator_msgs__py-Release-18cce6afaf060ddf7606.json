@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "soft_actuator_msgs__py",
+		"source" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/soft_actuator_msgs__py"
+	}
+}
