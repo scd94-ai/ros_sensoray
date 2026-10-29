@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0." timestamp="2026-10-28T18:59:13.707" name="AllTests">
+  <testsuite name="HangupSignal" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-28T18:59:13.707">
+    <testcase name="FlagOnlyDuringStartupAndRepeatedCleanupSignals" file="/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_hangup_signal.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-28T18:59:13.707" classname="sensoray826_ros.HangupSignal" />
+    <testcase name="RestoresPreviousHandlerAfterCleanup" file="/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_hangup_signal.cpp" line="18" status="run" result="completed" time="0." timestamp="2026-10-28T18:59:13.707" classname="sensoray826_ros.HangupSignal" />
+  </testsuite>
+</testsuites>

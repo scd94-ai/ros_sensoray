@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (-) JobUnselected: {'identifier': 'sensoray826_msgs'}
+[0.000285] (-) JobUnselected: {'identifier': 'soft_actuator_msgs'}
+[0.000302] (sensoray826_ros) JobQueued: {'identifier': 'sensoray826_ros', 'dependencies': OrderedDict({'sensoray826_msgs': '/home/erie_lab/Documents/soft_actuator_ros2_ws/install_jaw_input/sensoray826_msgs', 'soft_actuator_msgs': '/home/erie_lab/Documents/soft_actuator_ros2_ws/install_jaw_input/soft_actuator_msgs'})}
+[0.000329] (sensoray826_ros) JobStarted: {'identifier': 'sensoray826_ros'}
+[0.016793] (sensoray826_ros) JobEnded: {'identifier': 'sensoray826_ros', 'rc': 1}
+[0.017309] (-) EventReactorShutdown: {}

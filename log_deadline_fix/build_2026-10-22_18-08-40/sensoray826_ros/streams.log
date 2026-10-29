@@ -1,0 +1,69 @@
+[0.013s] Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch_stable) VIRTUAL_ENV_PROMPT=(torch_stable) /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros -DBUILD_TESTING=ON -DCMAKE_BUILD_TYPE=Release -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/jxs1778/soft_actuator_ros2_ws/core_install/lib/cmake/soft_actuator_core -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros
+[0.071s] -- The CXX compiler identification is GNU 13.3.0
+[0.087s] -- Detecting CXX compiler ABI info
+[0.178s] -- Detecting CXX compiler ABI info - done
+[0.188s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.188s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.330s] -- Found Python3: /home/erie_lab/Documents/envs/torch_stable/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.476s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.542s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.613s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.716s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.810s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.829s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.940s] -- Found soft_actuator_msgs: 0.1.0 (/home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/share/soft_actuator_msgs/cmake)
+[0.979s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.985s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.021s] -- The C compiler identification is GNU 13.3.0
+[1.034s] -- Detecting C compiler ABI info
+[1.120s] -- Detecting C compiler ABI info - done
+[1.128s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.128s] -- Detecting C compile features
+[1.128s] -- Detecting C compile features - done
+[1.131s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.233s] -- Found Threads: TRUE  
+[1.316s] -- Configuring done (1.3s)
+[1.334s] -- Generating done (0.0s)
+[1.339s] -- Build files have been written to: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros
+[1.350s] Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch_stable) VIRTUAL_ENV_PROMPT=(torch_stable) /usr/bin/cmake /home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros -DBUILD_TESTING=ON -DCMAKE_BUILD_TYPE=Release -Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver -Dsoft_actuator_core_DIR=/home/erie_lab/Documents/jxs1778/soft_actuator_ros2_ws/core_install/lib/cmake/soft_actuator_core -DCMAKE_INSTALL_PREFIX=/home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros
+[1.351s] Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch_stable) VIRTUAL_ENV_PROMPT=(torch_stable) /usr/bin/cmake --build /home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros -- -j32 -l32
+[1.406s] [ 25%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[1.406s] [ 25%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[1.407s] [ 37%] Building CXX object CMakeFiles/sensoray_node.dir/src/sensoray_node.cpp.o
+[1.983s] [ 50%] Linking CXX static library libgtest_main.a
+[2.062s] [ 50%] Built target gtest_main
+[6.951s] [ 62%] Linking CXX static library libgtest.a
+[7.043s] [ 62%] Built target gtest
+[7.066s] [ 75%] Building CXX object CMakeFiles/test_pressure_write_guard.dir/test/test_pressure_write_guard.cpp.o
+[8.498s] [ 87%] Linking CXX executable sensoray_node
+[8.618s] [ 87%] Built target sensoray_node
+[9.872s] [100%] Linking CXX executable test_pressure_write_guard
+[9.953s] [100%] Built target test_pressure_write_guard
+[9.964s] Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch_stable) VIRTUAL_ENV_PROMPT=(torch_stable) /usr/bin/cmake --build /home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros -- -j32 -l32
+[9.973s] Invoking command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch_stable) VIRTUAL_ENV_PROMPT=(torch_stable) /usr/bin/cmake --install /home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros
+[9.982s] -- Install configuration: "Release"
+[9.982s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/lib/sensoray826_ros/sensoray_node
+[9.983s] -- Set non-toolchain portion of runtime path of "/home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/lib/sensoray826_ros/sensoray_node" to ""
+[9.983s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/ament_index/resource_index/package_run_dependencies/sensoray826_ros
+[9.983s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/ament_index/resource_index/parent_prefix_path/sensoray826_ros
+[9.983s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/environment/ament_prefix_path.sh
+[9.984s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/environment/ament_prefix_path.dsv
+[9.984s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/environment/path.sh
+[9.984s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/environment/path.dsv
+[9.984s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/local_setup.bash
+[9.984s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/local_setup.sh
+[9.984s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/local_setup.zsh
+[9.984s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/local_setup.dsv
+[9.984s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/package.dsv
+[9.985s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/ament_index/resource_index/packages/sensoray826_ros
+[9.985s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/cmake/sensoray826_rosConfig.cmake
+[9.985s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/cmake/sensoray826_rosConfig-version.cmake
+[9.985s] -- Installing: /home/erie_lab/Documents/soft_actuator_ros2_ws/install_deadline_fix/sensoray826_ros/share/sensoray826_ros/package.xml
+[9.987s] Invoked command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erie_lab/Documents/grant/ros2_ws/install/labjack_ati:/home/erie_lab/Documents/grant/ros2_ws/install/hex10_serial:/home/erie_lab/ros2_ws/install/pyMT4:/home/erie_lab/ros2_ws/install/force_n:/home/erie_lab/ros2_ws/install/dvrk_utils:/home/erie_lab/dvrk_ws/install/dvrk_mtm_gc:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(torch_stable) VIRTUAL_ENV_PROMPT=(torch_stable) /usr/bin/cmake --install /home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros

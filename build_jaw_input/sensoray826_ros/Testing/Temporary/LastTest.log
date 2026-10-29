@@ -1,0 +1,296 @@
+Start testing: Oct 28 18:59 EDT
+----------------------------------------------------------
+1/12 Testing: node_adc_only
+1/12 Test: node_adc_only
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "adc_only"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_adc_only" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS adc_only 34 in-memory SDK events; no hardware operations
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"node_adc_only" end time: Oct 28 18:59 EDT
+"node_adc_only" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: node_pressure_only
+2/12 Test: node_pressure_only
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "pressure_only"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_pressure_only" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS pressure_only 28 in-memory SDK events; no hardware operations
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"node_pressure_only" end time: Oct 28 18:59 EDT
+"node_pressure_only" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: node_combined
+3/12 Test: node_combined
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "combined"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_combined" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS combined 56 in-memory SDK events; no hardware operations
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"node_combined" end time: Oct 28 18:59 EDT
+"node_combined" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: node_adc_failure
+4/12 Test: node_adc_failure
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "adc_failure"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_adc_failure" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS adc_failure failed startup restored/closed in-memory ADC without hardware
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"node_adc_failure" end time: Oct 28 18:59 EDT
+"node_adc_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: node_combined_failure
+5/12 Test: node_combined_failure
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "combined_failure"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_combined_failure" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS combined_failure failed startup restored/closed in-memory ADC without hardware
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"node_combined_failure" end time: Oct 28 18:59 EDT
+"node_combined_failure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: node_enabled_refused
+6/12 Test: node_enabled_refused
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "enabled_refused"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_enabled_refused" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS enabled_refused precise ROS error; unknown acquisition untouched
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"node_enabled_refused" end time: Oct 28 18:59 EDT
+"node_enabled_refused" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: node_adc_hangup
+7/12 Test: node_adc_hangup
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "adc_hangup"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_adc_hangup" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS adc_hangup 38 in-memory SDK events; no hardware operations
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"node_adc_hangup" end time: Oct 28 18:59 EDT
+"node_adc_hangup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: node_combined_hangup
+8/12 Test: node_combined_hangup
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "combined_hangup"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_combined_hangup" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS combined_hangup 58 in-memory SDK events; no hardware operations
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"node_combined_hangup" end time: Oct 28 18:59 EDT
+"node_combined_hangup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: node_adc_hangup_startup
+9/12 Test: node_adc_hangup_startup
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "adc_hangup_startup"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_adc_hangup_startup" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS adc_hangup_startup 15 in-memory SDK events; no hardware operations
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"node_adc_hangup_startup" end time: Oct 28 18:59 EDT
+"node_adc_hangup_startup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: node_adc_hangup_cleanup
+10/12 Test: node_adc_hangup_cleanup
+Command: "/usr/bin/python3" "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/test/test_node_lifecycle.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/sensoray_node_fake" "adc_hangup_cleanup"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"node_adc_hangup_cleanup" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+PASS adc_hangup_cleanup 39 in-memory SDK events; no hardware operations
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"node_adc_hangup_cleanup" end time: Oct 28 18:59 EDT
+"node_adc_hangup_cleanup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: test_hangup_signal
+11/12 Test: test_hangup_signal
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_hangup_signal.gtest.xml" "--package-name" "sensoray826_ros" "--output-file" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/ament_cmake_gtest/test_hangup_signal.txt" "--command" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_hangup_signal" "--gtest_output=xml:/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_hangup_signal.gtest.xml"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"test_hangup_signal" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros':
+ - /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_hangup_signal --gtest_output=xml:/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_hangup_signal.gtest.xml
+Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from HangupSignal
+[ RUN      ] HangupSignal.FlagOnlyDuringStartupAndRepeatedCleanupSignals
+[       OK ] HangupSignal.FlagOnlyDuringStartupAndRepeatedCleanupSignals (0 ms)
+[ RUN      ] HangupSignal.RestoresPreviousHandlerAfterCleanup
+[       OK ] HangupSignal.RestoresPreviousHandlerAfterCleanup (0 ms)
+[----------] 2 tests from HangupSignal (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_hangup_signal.gtest.xml'
+-- run_test.py: verify result file '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_hangup_signal.gtest.xml'
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"test_hangup_signal" end time: Oct 28 18:59 EDT
+"test_hangup_signal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: test_pressure_write_guard
+12/12 Test: test_pressure_write_guard
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_pressure_write_guard.gtest.xml" "--package-name" "sensoray826_ros" "--output-file" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/ament_cmake_gtest/test_pressure_write_guard.txt" "--command" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_pressure_write_guard" "--gtest_output=xml:/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_pressure_write_guard.gtest.xml"
+Directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros
+"test_pressure_write_guard" start time: Oct 28 18:59 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros':
+ - /home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_pressure_write_guard --gtest_output=xml:/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_pressure_write_guard.gtest.xml
+Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 28 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from Commands/ExpiredBeforeWriteTest
+[ RUN      ] Commands/ExpiredBeforeWriteTest.DoesNotCallAnyDacOrExtendTheDeadline/NonzeroPressureAtDeadline
+[       OK ] Commands/ExpiredBeforeWriteTest.DoesNotCallAnyDacOrExtendTheDeadline/NonzeroPressureAtDeadline (0 ms)
+[ RUN      ] Commands/ExpiredBeforeWriteTest.DoesNotCallAnyDacOrExtendTheDeadline/NonzeroPressureAfterDeadline
+[       OK ] Commands/ExpiredBeforeWriteTest.DoesNotCallAnyDacOrExtendTheDeadline/NonzeroPressureAfterDeadline (0 ms)
+[ RUN      ] Commands/ExpiredBeforeWriteTest.DoesNotCallAnyDacOrExtendTheDeadline/ZeroPressureAtDeadline
+[       OK ] Commands/ExpiredBeforeWriteTest.DoesNotCallAnyDacOrExtendTheDeadline/ZeroPressureAtDeadline (0 ms)
+[ RUN      ] Commands/ExpiredBeforeWriteTest.DoesNotCallAnyDacOrExtendTheDeadline/ZeroPressureAfterDeadline
+[       OK ] Commands/ExpiredBeforeWriteTest.DoesNotCallAnyDacOrExtendTheDeadline/ZeroPressureAfterDeadline (0 ms)
+[----------] 4 tests from Commands/ExpiredBeforeWriteTest (0 ms total)
+
+[----------] 12 tests from CommandsAndChannels/ExpiredDuringWriteTest
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel0AtDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel0AtDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel0AfterDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel0AfterDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel1AtDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel1AtDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel1AfterDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel1AfterDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel2AtDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel2AtDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel2AfterDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/NonzeroPressureChannel2AfterDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel0AtDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel0AtDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel0AfterDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel0AfterDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel1AtDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel1AtDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel1AfterDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel1AfterDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel2AtDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel2AtDeadline (0 ms)
+[ RUN      ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel2AfterDeadline
+[       OK ] CommandsAndChannels/ExpiredDuringWriteTest.CountsTheCompletedDacButRejectsTheTriple/ZeroPressureChannel2AfterDeadline (0 ms)
+[----------] 12 tests from CommandsAndChannels/ExpiredDuringWriteTest (0 ms total)
+
+[----------] 4 tests from CommandsAndGaps/SchedulingDelayTest
+[ RUN      ] CommandsAndGaps/SchedulingDelayTest.RechecksDeadlineBeforeTheNextDac/NonzeroPressureAfterChannel0
+[       OK ] CommandsAndGaps/SchedulingDelayTest.RechecksDeadlineBeforeTheNextDac/NonzeroPressureAfterChannel0 (0 ms)
+[ RUN      ] CommandsAndGaps/SchedulingDelayTest.RechecksDeadlineBeforeTheNextDac/NonzeroPressureAfterChannel1
+[       OK ] CommandsAndGaps/SchedulingDelayTest.RechecksDeadlineBeforeTheNextDac/NonzeroPressureAfterChannel1 (0 ms)
+[ RUN      ] CommandsAndGaps/SchedulingDelayTest.RechecksDeadlineBeforeTheNextDac/ZeroPressureAfterChannel0
+[       OK ] CommandsAndGaps/SchedulingDelayTest.RechecksDeadlineBeforeTheNextDac/ZeroPressureAfterChannel0 (0 ms)
+[ RUN      ] CommandsAndGaps/SchedulingDelayTest.RechecksDeadlineBeforeTheNextDac/ZeroPressureAfterChannel1
+[       OK ] CommandsAndGaps/SchedulingDelayTest.RechecksDeadlineBeforeTheNextDac/ZeroPressureAfterChannel1 (0 ms)
+[----------] 4 tests from CommandsAndGaps/SchedulingDelayTest (0 ms total)
+
+[----------] 2 tests from Commands/SuccessfulWriteTest
+[ RUN      ] Commands/SuccessfulWriteTest.FinishesAllThreeChannelsBeforeTheOriginalDeadline/NonzeroPressure
+[       OK ] Commands/SuccessfulWriteTest.FinishesAllThreeChannelsBeforeTheOriginalDeadline/NonzeroPressure (0 ms)
+[ RUN      ] Commands/SuccessfulWriteTest.FinishesAllThreeChannelsBeforeTheOriginalDeadline/ZeroPressure
+[       OK ] Commands/SuccessfulWriteTest.FinishesAllThreeChannelsBeforeTheOriginalDeadline/ZeroPressure (0 ms)
+[----------] 2 tests from Commands/SuccessfulWriteTest (0 ms total)
+
+[----------] 6 tests from CommandsAndChannels/DacFailureTest
+[ RUN      ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/NonzeroPressureChannel0
+[       OK ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/NonzeroPressureChannel0 (0 ms)
+[ RUN      ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/NonzeroPressureChannel1
+[       OK ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/NonzeroPressureChannel1 (0 ms)
+[ RUN      ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/NonzeroPressureChannel2
+[       OK ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/NonzeroPressureChannel2 (0 ms)
+[ RUN      ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/ZeroPressureChannel0
+[       OK ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/ZeroPressureChannel0 (0 ms)
+[ RUN      ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/ZeroPressureChannel1
+[       OK ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/ZeroPressureChannel1 (0 ms)
+[ RUN      ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/ZeroPressureChannel2
+[       OK ] CommandsAndChannels/DacFailureTest.CountsOnlySuccessfulWritesAndDoesNotCallLaterChannels/ZeroPressureChannel2 (0 ms)
+[----------] 6 tests from CommandsAndChannels/DacFailureTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 28 tests from 5 test suites ran. (0 ms total)
+[  PASSED  ] 28 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_pressure_write_guard.gtest.xml'
+-- run_test.py: verify result file '/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_ros/test_results/sensoray826_ros/test_pressure_write_guard.gtest.xml'
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"test_pressure_write_guard" end time: Oct 28 18:59 EDT
+"test_pressure_write_guard" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 28 18:59 EDT
+
+gtest =   0.15 sec*proc
+

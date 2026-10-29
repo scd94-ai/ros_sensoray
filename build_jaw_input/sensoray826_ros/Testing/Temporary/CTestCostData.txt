@@ -1,0 +1,13 @@
+node_adc_only 5 0.0584345
+node_pressure_only 5 0.0372145
+node_combined 5 0.0577863
+node_adc_failure 5 0.0362141
+node_combined_failure 5 0.0371537
+test_pressure_write_guard 5 0.0133567
+node_enabled_refused 1 0.181359
+node_adc_hangup 1 0.30243
+node_combined_hangup 1 0.304639
+node_adc_hangup_startup 1 0.188894
+node_adc_hangup_cleanup 1 0.311806
+test_hangup_signal 1 0.0820476
+---

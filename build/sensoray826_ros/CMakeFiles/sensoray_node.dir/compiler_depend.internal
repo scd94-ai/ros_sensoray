@@ -3,21 +3,21 @@
 
 CMakeFiles/sensoray_node.dir/src/sensoray_node.cpp.o
  /home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/src/sensoray_node.cpp
- /home/erie_lab/Documents/sensoray826/include/826api.h
- /home/erie_lab/Documents/sensoray826/include/Festo.h
- /home/erie_lab/Documents/sensoray826/include/Sensoray826.h
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__builder.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__struct.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__traits.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_command__type_support.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__builder.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__struct.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__traits.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/detail/pressure_state__type_support.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/pressure_command.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/pressure_state.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/install/soft_actuator_msgs/include/soft_actuator_msgs/soft_actuator_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
- /home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/include/sensoray826_ros/message_adapter.hpp
+ /home/erie_lab/Documents/jxs1778/soft_actuator_ros2_ws/core_install/include/soft_actuator_core/output_policy.hpp
+ /home/erie_lab/Documents/sensoray826/install/include/826api.h
+ /home/erie_lab/Documents/sensoray826/install/include/Festo.h
+ /home/erie_lab/Documents/sensoray826/install/include/Sensoray826.h
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/detail/pressure_command__builder.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/detail/pressure_command__struct.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/detail/pressure_command__traits.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/detail/pressure_command__type_support.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/detail/pressure_state__builder.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/detail/pressure_state__struct.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/detail/pressure_state__traits.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/detail/pressure_state__type_support.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/pressure_command.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/pressure_state.hpp
+ /home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_cpp/soft_actuator_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp

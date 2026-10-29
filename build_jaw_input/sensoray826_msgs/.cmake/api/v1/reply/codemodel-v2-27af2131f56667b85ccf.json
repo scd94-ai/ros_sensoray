@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f91c74e3aa26bab9a2a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "sensoray826_msgs__py",
+					"jsonFile" : "directory-sensoray826_msgs__py-Release-02c47abbe54d1c896578.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_msgs/sensoray826_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "sensoray826_msgs__rs",
+					"jsonFile" : "directory-sensoray826_msgs__rs-Release-151968bec995bb8fc01b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_msgs/sensoray826_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "sensoray826_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sensoray826_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sensoray826_msgs_egg-Release-57284d884d395ec71ddb.json",
+					"name" : "ament_cmake_python_build_sensoray826_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sensoray826_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sensoray826_msgs-Release-34b903c85ef6b62ee0fb.json",
+					"name" : "ament_cmake_python_copy_sensoray826_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs-Release-a023201d8ef03334b545.json",
+					"name" : "sensoray826_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__cpp-Release-44567ba77bc5ebd030c6.json",
+					"name" : "sensoray826_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sensoray826_msgs__py::@22acd4e0b904bf569cef",
+					"jsonFile" : "target-sensoray826_msgs__py-Release-36b6dae2659ef9f168ef.json",
+					"name" : "sensoray826_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_generator_c-Release-7269278c379737a11301.json",
+					"name" : "sensoray826_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_generator_py-Release-c4cfdc55278c58767793.json",
+					"name" : "sensoray826_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_generator_type_description-Release-49c55701c1fd85007cd1.json",
+					"name" : "sensoray826_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_typesupport_c-Release-76472143900f72dc7fc7.json",
+					"name" : "sensoray826_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_typesupport_cpp-Release-ed45ad8f55bc399d68a2.json",
+					"name" : "sensoray826_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_typesupport_fastrtps_c-Release-418778914bc6e4ecc462.json",
+					"name" : "sensoray826_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_typesupport_fastrtps_cpp-Release-956474a7a5b855a99de6.json",
+					"name" : "sensoray826_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_typesupport_introspection_c-Release-e9b6b5c9c7b28320c7c9.json",
+					"name" : "sensoray826_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs__rosidl_typesupport_introspection_cpp-Release-774775148d39cc41c128.json",
+					"name" : "sensoray826_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sensoray826_msgs__rs::@3fee5003b842503caf33",
+					"jsonFile" : "target-sensoray826_msgs__rs-Release-ebb9d4c8f190b2c64038.json",
+					"name" : "sensoray826_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs_s__rosidl_typesupport_c-Release-9a0b07df5cce55544db3.json",
+					"name" : "sensoray826_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs_s__rosidl_typesupport_fastrtps_c-Release-2701b461ddf053f49f88.json",
+					"name" : "sensoray826_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs_s__rosidl_typesupport_introspection_c-Release-b3d01ac10448602afeed.json",
+					"name" : "sensoray826_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensoray826_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensoray826_msgs_uninstall-Release-b94b0748bd82804c8746.json",
+					"name" : "sensoray826_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7e9a54d06b0d015081d4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_jaw_input/sensoray826_msgs",
+		"source" : "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

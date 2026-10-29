@@ -1,0 +1,6 @@
+{
+  "package_name": "sensoray826_msgs",
+  "non_idl_tuples": [
+    "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_msgs:msg/PotentiometerState.msg"
+  ]
+}
