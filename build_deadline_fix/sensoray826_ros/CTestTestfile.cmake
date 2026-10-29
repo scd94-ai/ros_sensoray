@@ -1,9 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros
-# Build directory: /home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test(test_pressure_write_guard "/home/erie_lab/Documents/envs/torch_stable/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros/test_results/sensoray826_ros/test_pressure_write_guard.gtest.xml" "--package-name" "sensoray826_ros" "--output-file" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros/ament_cmake_gtest/test_pressure_write_guard.txt" "--command" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros/test_pressure_write_guard" "--gtest_output=xml:/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros/test_results/sensoray826_ros/test_pressure_write_guard.gtest.xml")
-set_tests_properties(test_pressure_write_guard PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros/test_pressure_write_guard" TIMEOUT "60" WORKING_DIRECTORY "/home/erie_lab/Documents/soft_actuator_ros2_ws/build_deadline_fix/sensoray826_ros" _BACKTRACE_TRIPLES "/opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/jazzy/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;95;ament_add_test;/opt/ros/jazzy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/CMakeLists.txt;59;ament_add_gtest;/home/erie_lab/Documents/soft_actuator_ros2_ws/src/sensoray826_ros/CMakeLists.txt;0;")
-subdirs("gtest")

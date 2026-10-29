@@ -1,8 +1,0 @@
-{
-  "package_name": "soft_actuator_msgs",
-  "non_idl_tuples": [
-    "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs:msg/PressureCommand.msg",
-    "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs:msg/PressureState.msg",
-    "/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs:msg/ControllerStatus.msg"
-  ]
-}

@@ -1,1 +1,0 @@
-['-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING=ON', '-Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install_jaw_input/lib/cmake/sensoray826_driver', '-Dsoft_actuator_core_DIR=/home/erie_lab/Documents/jxs1778/soft_actuator_ros2_ws/core_install_numeric_fix/lib/cmake/soft_actuator_core', '-DSENSORAY826_TEST_SOURCE_DIR=/home/erie_lab/Documents/sensoray826']

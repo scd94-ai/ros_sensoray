@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_py/soft_actuator_msgs/soft_actuator_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "soft_actuator_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/soft_actuator_msgs")

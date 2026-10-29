@@ -1,1 +1,0 @@
-/home/erie_lab/Documents/soft_actuator_ros2_ws/build/sensoray826_ros/ament_cmake_environment_hooks/local_setup.bash
