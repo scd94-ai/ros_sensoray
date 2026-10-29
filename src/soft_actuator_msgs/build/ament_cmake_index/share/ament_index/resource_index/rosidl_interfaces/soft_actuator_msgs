@@ -1,6 +1,0 @@
-msg/ControllerStatus.idl
-msg/ControllerStatus.msg
-msg/PressureCommand.idl
-msg/PressureCommand.msg
-msg/PressureState.idl
-msg/PressureState.msg

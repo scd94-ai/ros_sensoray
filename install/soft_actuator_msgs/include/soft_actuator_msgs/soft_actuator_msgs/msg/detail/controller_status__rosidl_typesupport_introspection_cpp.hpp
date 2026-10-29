@@ -1,1 +1,0 @@
-/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_typesupport_introspection_cpp/soft_actuator_msgs/msg/detail/controller_status__rosidl_typesupport_introspection_cpp.hpp

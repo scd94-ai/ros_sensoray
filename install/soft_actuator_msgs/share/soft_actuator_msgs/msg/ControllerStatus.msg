@@ -1,1 +1,0 @@
-/home/erie_lab/Documents/soft_actuator_ros2_ws/src/soft_actuator_msgs/msg/ControllerStatus.msg

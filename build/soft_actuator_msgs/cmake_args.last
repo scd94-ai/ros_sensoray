@@ -1,1 +1,0 @@
-['-Dsensoray826_driver_DIR=/home/erie_lab/Documents/sensoray826/install/lib/cmake/sensoray826_driver', '-Dsoft_actuator_core_DIR=/home/erie_lab/Documents/soft-actuator-control-core/install/lib/cmake/soft_actuator_core', '-DAMENT_CMAKE_SYMLINK_INSTALL=1']

@@ -1,1 +1,0 @@
-/home/erie_lab/Documents/soft_actuator_ros2_ws/build/soft_actuator_msgs/rosidl_generator_rs/soft_actuator_msgs/rust/src/lib.rs

@@ -1,7 +1,0 @@
-[33mCMake Warning:
-  Manually-specified variables were not used by the project:
-
-    sensoray826_driver_DIR
-    soft_actuator_core_DIR
-
-[0m

@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/test_hangup_signal.dir/test/test_hangup_signal.cpp.o -o test_hangup_signal  gtest/libgtest_main.a gtest/libgtest.a -pthread 
