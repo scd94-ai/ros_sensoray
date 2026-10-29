@@ -6,6 +6,9 @@
 **/install*/
 **/log*/
 
+# Local workspace snapshots
+/backup*/
+
 # CMake-generated files
 CMakeFiles/
 CMakeCache.txt
