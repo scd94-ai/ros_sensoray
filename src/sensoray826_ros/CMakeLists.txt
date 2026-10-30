@@ -65,9 +65,13 @@ if(BUILD_TESTING)
     find_package(Python3 REQUIRED COMPONENTS Interpreter)
     set(SENSORAY826_TEST_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../../sensoray826" CACHE PATH "Native source for SDK-free lifecycle test")
     if(EXISTS "${SENSORAY826_TEST_SOURCE_DIR}/src/sensoray826.cpp")
-        add_executable(sensoray_node_fake src/sensoray_node.cpp test/fake_sdk.cpp
+        add_executable(sensoray_node_fake
+            src/sensoray_node.cpp
+            test/fake_sdk.cpp
             "${SENSORAY826_TEST_SOURCE_DIR}/src/sensoray826.cpp"
-            "${SENSORAY826_TEST_SOURCE_DIR}/src/festo.cpp")
+            "${SENSORAY826_TEST_SOURCE_DIR}/src/sensoray826_device.cpp"
+            "${SENSORAY826_TEST_SOURCE_DIR}/src/festo.cpp"
+        )
         target_include_directories(sensoray_node_fake PRIVATE include "${SENSORAY826_TEST_SOURCE_DIR}/include")
         ament_target_dependencies(sensoray_node_fake rclcpp sensoray826_msgs soft_actuator_msgs)
         target_link_libraries(sensoray_node_fake soft_actuator::core Threads::Threads)

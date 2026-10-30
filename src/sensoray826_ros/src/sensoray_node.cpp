@@ -1,12 +1,13 @@
 
 #include "Festo.h"
+#include "Pressure_Sensor.h"
+#include "Potentiometer.h"
+#include "SMC.h"
 #include "Sensoray826.h"
+
 #include "826api.h"
 #include "pressure_write_guard.hpp"
 #include "hangup_signal.hpp"
-#include "Pressure_Sensor.h"
-
-
 
 #include <std_msgs/msg/float64.hpp>
 #include <rclcpp/rclcpp.hpp>
